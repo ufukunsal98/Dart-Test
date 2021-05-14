@@ -1,3 +1,7 @@
 void main() {
-	print("TEST ${5}");
+	print("Merhaba ufuk");
+  print("Merhaba ufuk");
+  print("Merhaba ufuk");
+  print("Merhaba ufuk");
+  print("Merhaba ufuk");
 }
