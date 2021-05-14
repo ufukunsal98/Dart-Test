@@ -20,6 +20,20 @@ void main() {
 
   else
     print("öğrenci kaldı");
+
+  String not = "A";
+
+  switch (not) {
+    case "B": {
+      print("orta");}
+      break;
+    case "A": {
+      print("iyi");
+      }
+      brea
+      
+  }
+
   
   
 }
