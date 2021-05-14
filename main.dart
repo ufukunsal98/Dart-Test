@@ -1,22 +1,25 @@
 void main() {
+  // sart bloklarini uygulamalarda dallanma yapmak icin kullaniriz.
+
+  print("sart bloklari denemesi...");
+
+  var sistemeGirilmisMi = false;
+
+  if (sistemeGirilmisMi) {
+    print("sisteme girilmis...");
+  }else {
+    print("sisteme girilmemis...");
+  }
+
+
+  int puan = 65;
+
+  if(puan >= 50)
+    print("öğrenci geçti");
   
-  // camelCase
-  // PascalCase
+
+  else
+    print("öğrenci kaldı");
   
-  String message = "ufuk";
-  int dogumYili = 1998;
-  double oran = 1.15;
-  bool dogruluk = true;
-
-  // degisken isimleri asla sayisal deger ile baslatilamaz..
-
-	print("Merhaba ${message} ,  ${dogumYili}");
-  print("Merhaba ${message} , ${dogumYili}");
-  print("Merhaba ${message} , ${dogumYili}");
-  print("Merhaba ${message} , ${dogumYili}");
-  print("Merhaba ${message} , ${dogumYili}");
-
-  print("oran " + oran.toString());
-
-  print("Doğruluk " + dogruluk.toString());
+  
 }
